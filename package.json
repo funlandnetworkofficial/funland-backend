@@ -1,0 +1,22 @@
+{
+  "name": "funland-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "wrangler deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funlandnetworkofficial/backend.git"
+  },
+  "keywords": [],
+  "author": "FunLand Team",
+  "license": "ISC",
+  "dependencies": {
+    "cloudflare": "^5.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
